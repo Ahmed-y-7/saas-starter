@@ -55,10 +55,3 @@ User (now with a hashed `password`), Project, Ticket (OPEN/CLOSED), Activity.
 | `npm run db:migrate` | Create/apply migrations            |
 | `npm run db:seed`    | Seed sample data                   |
 | `npm run db:studio`  | Open Prisma Studio                 |
-
-## Next steps
-
-- Add OAuth providers (Google/GitHub) via Auth.js.
-- Add Zod validation to the server actions.
-- Make the dashboard interactive (create projects/tickets from the UI).
-- Deploy to Vercel with a pooled Postgres connection.
